@@ -13,8 +13,8 @@
 		798692381940DA50001BA84E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 798692361940DA50001BA84E /* Main.storyboard */; };
 		7986923A1940DA50001BA84E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 798692391940DA50001BA84E /* Images.xcassets */; };
 		798692461940DA50001BA84E /* Migration_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 798692451940DA50001BA84E /* Migration_TestTests.m */; };
-		798692521940DAE9001BA84E /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798692511940DAE9001BA84E /* Test.swift */; };
-		798692531940DAE9001BA84E /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798692511940DAE9001BA84E /* Test.swift */; };
+		798692521940DAE9001BA84E /* Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798692511940DAE9001BA84E /* Swift.swift */; };
+		798692531940DAE9001BA84E /* Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798692511940DAE9001BA84E /* Swift.swift */; };
 		798692551940DB15001BA84E /* ObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = 798692541940DB15001BA84E /* ObjC.m */; };
 		798692561940DB15001BA84E /* ObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = 798692541940DB15001BA84E /* ObjC.m */; };
 /* End PBXBuildFile section */
@@ -44,7 +44,7 @@
 		798692451940DA50001BA84E /* Migration_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Migration_TestTests.m; sourceTree = "<group>"; };
 		7986924F1940DAE8001BA84E /* Migration-Test-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Migration-Test-Bridging-Header.h"; sourceTree = "<group>"; };
 		798692501940DAE9001BA84E /* Migration-TestTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Migration-TestTests-Bridging-Header.h"; sourceTree = "<group>"; };
-		798692511940DAE9001BA84E /* Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		798692511940DAE9001BA84E /* Swift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift.swift; sourceTree = "<group>"; };
 		798692541940DB15001BA84E /* ObjC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjC.m; sourceTree = "<group>"; };
 		798692571940DB23001BA84E /* ObjC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjC.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -95,7 +95,7 @@
 				798692361940DA50001BA84E /* Main.storyboard */,
 				798692391940DA50001BA84E /* Images.xcassets */,
 				7986922C1940DA50001BA84E /* Supporting Files */,
-				798692511940DAE9001BA84E /* Test.swift */,
+				798692511940DAE9001BA84E /* Swift.swift */,
 				7986924F1940DAE8001BA84E /* Migration-Test-Bridging-Header.h */,
 				798692501940DAE9001BA84E /* Migration-TestTests-Bridging-Header.h */,
 				798692571940DB23001BA84E /* ObjC.h */,
@@ -231,7 +231,7 @@
 			files = (
 				798692551940DB15001BA84E /* ObjC.m in Sources */,
 				798692351940DA50001BA84E /* ViewController.m in Sources */,
-				798692521940DAE9001BA84E /* Test.swift in Sources */,
+				798692521940DAE9001BA84E /* Swift.swift in Sources */,
 				798692321940DA50001BA84E /* AppDelegate.m in Sources */,
 				7986922F1940DA50001BA84E /* main.m in Sources */,
 			);
@@ -242,7 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				798692461940DA50001BA84E /* Migration_TestTests.m in Sources */,
-				798692531940DAE9001BA84E /* Test.swift in Sources */,
+				798692531940DAE9001BA84E /* Swift.swift in Sources */,
 				798692561940DB15001BA84E /* ObjC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,6 +432,7 @@
 				7986924B1940DA50001BA84E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7986924C1940DA50001BA84E /* Build configuration list for PBXNativeTarget "Migration-TestTests" */ = {
 			isa = XCConfigurationList;
@@ -440,6 +441,7 @@
 				7986924E1940DA50001BA84E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
