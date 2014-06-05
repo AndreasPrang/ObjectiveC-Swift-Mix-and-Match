@@ -21,8 +21,9 @@
 
     Swift *swift = [[Swift alloc] init];
     
-    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(20, 100, 150, 20)];
+    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(20, 100, 280, 80)];
     label.text = swift.getText;
+    label.font = [UIFont systemFontOfSize:8];
     [self.view addSubview:label];
 }
 

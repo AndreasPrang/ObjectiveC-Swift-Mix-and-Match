@@ -11,7 +11,7 @@
 @implementation ObjC : NSObject
 
 - (NSString *) getText {
-    return(@"some Text");
+    return(@"UILabel.m → ViewController.m → Swift.swift → ObjC.m → NSString");
 }
 
 @end
